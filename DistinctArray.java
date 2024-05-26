@@ -6,8 +6,8 @@
         digits that can be extracted from the numbers
         of the array.
  */
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
+
 
 public class DistinctArray {
     public static void main(String[] args) {

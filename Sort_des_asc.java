@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 /*Given an array A of positive integers. Your task is to sort them in such
 a way that the first part of the array contains odd numbers sorted in descending
@@ -17,16 +17,27 @@ and sorted in ascending order.
 
 public class Sort_des_asc {
     static int[] sortArray(int n,int a[]){
-        int min = Arrays.stream(a).min().getAsInt();
-        int result[] =  new int[n];
-        result[n/2] = min;
-        for(int i=0;i<n;i++) {
-            if (a[i] % 2==0){
-                result[min+1+i] = a[i];
-            }else {
-                result[min-1-i] = a[i];
-            }
+
+        List<Integer> odd = new ArrayList<>();
+        List<Integer> even = new ArrayList<>();
+
+        for(int num : a){
+            if(num%2==0)
+                even.add(num);
+            else
+                odd.add(num);
         }
+
+        Collections.sort(odd,Collections.reverseOrder());
+        Collections.sort(even);
+
+        int result[] =  new int[n];
+        int index =0;
+        for(int o_num : odd)
+            result[index++]= o_num;
+        for(int e_num :even)
+            result[index++]=e_num;
+
         return  result;
     }
     public static void main(String[] args) {
