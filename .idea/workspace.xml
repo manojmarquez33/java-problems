@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd73aed-63fe-4fc5-bb70-305cc9550b6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice.java" afterDir="false" />
-    </list>
+    <list default="true" id="fdd73aed-63fe-4fc5-bb70-305cc9550b6f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -37,10 +30,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Add4todigit.executor": "Run",
+    "Application.DecodeString.executor": "Run",
+    "Application.MinimumMoves.executor": "Run",
+    "Application.MissingNumber.executor": "Run",
     "Application.N_PrimeNumber.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.PrimeNumberRange.executor": "Run",
+    "Application.ReverseStringSpecial.executor": "Run",
     "Application.SortByFactor2.executor": "Run",
     "Application.SortByFactors.executor": "Run",
+    "Application.SortByFreqArray.executor": "Run",
     "Application.SortByFrequency.executor": "Run",
+    "Application.Top3Repeated.executor": "Run",
     "Application.TwistedPrime.executor": "Run",
     "Application.practice.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",

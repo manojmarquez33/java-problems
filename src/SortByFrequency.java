@@ -29,18 +29,18 @@ class SortByFrequency{
         int arr[] = {5,5,5,5,4,6,4,4};
         int res[]=sortByFrequency(arr);
         for(int i : res){
-            System.out.print(i);
+            System.out.print(i+" ");
         }
     }
 
     static class Elements{
         int value;
-        int factor;
+        int element;
         int index;
 
-        Elements(int value,int factor,int index){
+        Elements(int value,int element,int index){
             this.value = value;
-            this.factor = factor;
+            this.element = element;
             this.index = index;
         }
     }
@@ -55,8 +55,8 @@ class SortByFrequency{
         }
 
         Arrays.sort(elements, (e1, e2) -> {
-            if (e1.factor != e2.factor)
-                return e2.factor - e1.factor;
+            if (e1.element != e2.element)
+                return e2.element - e1.element;
             else
                 return e1.value - e2.value;
         });

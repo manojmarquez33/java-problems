@@ -11,8 +11,7 @@ public class TwistedPrime {
         while (t-- > 0) {
             System.out.print("Enter a number: ");
             int N = in.nextInt();
-            Solution ob = new Solution();
-            int result = ob.isTwistedPrime(N);
+            int result = isTwistedPrime(N);
             if (result == 1) {
                 System.out.println(N + " is a twisted prime.");
             } else {
@@ -20,14 +19,12 @@ public class TwistedPrime {
             }
         }
     }
-}
 
-class Solution {
-    int isTwistedPrime(int n) {
+    static int isTwistedPrime(int n) {
         if (prime(n) && prime(reverse(n))) return 1; else return 0;
     }
 
-    boolean prime(int n) {
+    static boolean prime(int n) {
         if (n <= 1) return false;
         if (n == 2) return true;
         if (n % 2 == 0) return false;
@@ -39,7 +36,7 @@ class Solution {
         return true;
     }
 
-    int reverse(int n) {
+    static int reverse(int n) {
         int rev = 0;
         while (n > 0) {
             rev = (rev * 10) + n % 10;

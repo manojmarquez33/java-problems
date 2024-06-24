@@ -1,6 +1,12 @@
 class practice{
     public static void main(String[] args) {
 
-        int arr[] = {124,55,2,55,45,124,124,3,2,123,124,2};
+        int n = 5;
+        int fact = 1;
+        for(int i=1;i<=n;i++){
+            fact=fact*i;
+        }
+
+        System.out.println(fact);
     }
 }
