@@ -26,7 +26,7 @@ import java.util.Arrays;
 
 class SortByFrequency{
     public static void main(String[] args) {
-        int arr[] = {5,5,5,5,4,6,4,4};
+        int arr[] = {1,1,2,2,5, 5, 4, 6, 4, 5, 5, 5, 5};
         int res[]=sortByFrequency(arr);
         for(int i : res){
             System.out.print(i+" ");

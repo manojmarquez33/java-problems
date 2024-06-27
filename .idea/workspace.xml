@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd73aed-63fe-4fc5-bb70-305cc9550b6f" name="Changes" comment="" />
+    <list default="true" id="fdd73aed-63fe-4fc5-bb70-305cc9550b6f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,13 +33,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Add4todigit.executor": "Run",
+    "Application.ArrayListOperation.executor": "Run",
+    "Application.CountPalindrome.executor": "Run",
     "Application.DecodeString.executor": "Run",
+    "Application.InsertStartEndList.executor": "Run",
+    "Application.MatrixDiagonalSum.executor": "Run",
     "Application.MinimumMoves.executor": "Run",
     "Application.MissingNumber.executor": "Run",
     "Application.N_PrimeNumber.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PrimeNumberRange.executor": "Run",
+    "Application.RemoveAcuurance.executor": "Run",
     "Application.ReverseStringSpecial.executor": "Run",
+    "Application.SampleArrayList.executor": "Run",
     "Application.SortByFactor2.executor": "Run",
     "Application.SortByFactors.executor": "Run",
     "Application.SortByFreqArray.executor": "Run",
