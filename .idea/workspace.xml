@@ -4,71 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd73aed-63fe-4fc5-bb70-305cc9550b6f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="76ceafdf-9547-4571-9eda-cdf3c2ab69ff" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2gzmA1cGjye8lchP6W7j8iMt7cd" />
+  <component name="ProjectId" id="2lyS00TKjr5g44bnuTGYhQIg1qR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Add4todigit.executor": "Run",
-    "Application.ArrayListOperation.executor": "Run",
-    "Application.CountPalindrome.executor": "Run",
-    "Application.DecodeString.executor": "Run",
-    "Application.InsertStartEndList.executor": "Run",
-    "Application.MatrixDiagonalSum.executor": "Run",
-    "Application.MinimumMoves.executor": "Run",
-    "Application.MissingNumber.executor": "Run",
-    "Application.N_PrimeNumber.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.PrimeNumberRange.executor": "Run",
-    "Application.RemoveAcuurance.executor": "Run",
-    "Application.ReverseStringSpecial.executor": "Run",
-    "Application.SampleArrayList.executor": "Run",
-    "Application.SortByFactor2.executor": "Run",
-    "Application.SortByFactors.executor": "Run",
-    "Application.SortByFreqArray.executor": "Run",
-    "Application.SortByFrequency.executor": "Run",
-    "Application.Top3Repeated.executor": "Run",
-    "Application.TwistedPrime.executor": "Run",
-    "Application.practice.executor": "Run",
+    "Application.OptimalJumps.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Manojkumar/projects/Java training",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "last_opened_file_path": "D:/Manojkumar/projects/Java problems/java_training",
+    "onboarding.tips.debug.path": "D:/Manojkumar/projects/Java problems/java_logics/src/Main.java"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fdd73aed-63fe-4fc5-bb70-305cc9550b6f" name="Changes" comment="" />
-      <created>1716708634328</created>
+      <changelist id="76ceafdf-9547-4571-9eda-cdf3c2ab69ff" name="Changes" comment="" />
+      <created>1726150596357</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716708634328</updated>
+      <updated>1726150596357</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

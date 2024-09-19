@@ -15,24 +15,22 @@ public class SortByFreqArray {
         int[][] freqArray = new int[61][2];
 
         for (int i = 0; i < 61; i++) {
-            freqArray[i][0] = i; // value
-            freqArray[i][1] = 0; // frequency
+            freqArray[i][0] = i;
+            freqArray[i][1] = 0;
         }
 
         for (int value : arr) {
             freqArray[value][1]++;
         }
 
-        // Sort based on frequency (descending), then value (ascending)
         Arrays.sort(freqArray, (a, b) -> {
             if (b[1] != a[1]) {
-                return b[1] - a[1]; // Higher frequency first
+                return b[1] - a[1];
             } else {
-                return a[0] - b[0]; // Smaller value first
+                return a[0] - b[0];
             }
         });
 
-        // Create the sorted result array
         int[] sortedArray = new int[n];
         int index = 0;
 

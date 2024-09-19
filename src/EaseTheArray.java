@@ -17,16 +17,16 @@
  So, array will become [4, 4, 8, 0, 0, 0].*/
 public class EaseTheArray {
     public static void main(String[] args) {
-        int[] arr = {2, 2, 0, 4, 0, 8};
+    int[] arr = {2, 2, 0, 4, 0, 8};
 
-        System.out.println("Original array:");
-        printArray(arr);
+    System.out.println("Original array:");
+    printArray(arr);
 
-        modifyAndRearrangeArr(arr, arr.length);
+    modifyAndRearrangeArr(arr, arr.length);
 
-        System.out.println("Array after modification and rearrangement:");
-        printArray(arr);
-    }
+    System.out.println("Array after modification and rearrangement:");
+    printArray(arr);
+}
 
     static void modifyAndRearrangeArr(int arr[], int n) {
         int zero = n - 1;

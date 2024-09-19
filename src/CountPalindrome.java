@@ -14,7 +14,7 @@ public class CountPalindrome {
         for(int i=0;i<n;i++){
             char c = sentence.charAt(i);
             if(c!=' ') {
-                word += c;
+                word = word + c;
             }else{
                 if(checkPalindrom(word)) {
                     count++;
